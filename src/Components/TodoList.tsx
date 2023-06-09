@@ -40,7 +40,7 @@ const TodoList = () => {
   return (
     <>
       {todos.map((todo, index) => (
-        <div className="py-1 w-full" key={index}>
+        <div className="py-1 w-[80%]" key={index}>
           <TodoItem
             todo={todo}
             id={index}

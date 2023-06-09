@@ -132,7 +132,7 @@ const TodoItem: React.FC<TodoItemProps> = ({
 
   if (onEdit) {
     return (
-      <ul className="p-1 rounded border-solid border-2 border-stone-300">
+      <ul className=" w-[480px] p-1 rounded border-solid border-2 border-stone-300">
         {/* Render todo item */}
         <li className="mb-2.5 mt-2.5  flex justify-between items-center capitalize">
           <input
@@ -150,7 +150,7 @@ const TodoItem: React.FC<TodoItemProps> = ({
     );
   } else {
     return (
-      <ul className="p-1 rounded border-solid border-2 border-stone-300">
+      <ul className=" w-[480px] p-1 rounded border-solid border-2 border-stone-300">
         {/* Render todo item */}
         <li
           className={`mb-2.5 mt-2.5 flex justify-between items-center capitalize ${
