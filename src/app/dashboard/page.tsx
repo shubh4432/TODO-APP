@@ -22,9 +22,9 @@ const Dashboard = () => {
 
   return (
     <div 
-      className="flex justify-center items-center h-screen"
+      className="flex  h-screen"
     >
-      <div className="bg-white shadow-xl rounded-lg p-6 w-1/3">
+      <div className="">
         <TodoProvider>
           <UserProvider>
               <h1 className="text-4xl text-[#666666] font-bold mb-4">
