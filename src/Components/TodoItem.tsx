@@ -1,5 +1,4 @@
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-nocheck
+
 
 import { TodoContext } from "@/Contexts/TodoContext";
 import React, { useContext, useState } from "react";
@@ -21,7 +20,7 @@ type TodoItemProps = {
     subtasks: Subtask[];
   };
   id: any;
-  checkComplete: (id: number) => void;
+  checkComplete: any;
   handleEditTodos: (editValue: string, id: number) => void;
   handleAddSubtaskProp: (id: number, subtask: Subtask) => void;
 };

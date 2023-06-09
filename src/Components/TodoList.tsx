@@ -1,8 +1,5 @@
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-nocheck
-
 "use client";
-import React, { useContext, useEffect } from "react";
+import React, { useContext } from "react";
 import TodoItem from "../Components/TodoItem";
 import { Subtask, TodoContext } from "@/Contexts/TodoContext";
 
@@ -39,11 +36,6 @@ const TodoList = () => {
     setTodos(newTodos);
   };
 
-  useEffect(() => {
-    todos.forEach((todo) => {
-      console.log(todo.name);
-    });
-  }, []);
 
   return (
     <>
