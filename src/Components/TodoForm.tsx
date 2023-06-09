@@ -21,7 +21,7 @@ const TodoForm = () => {
       <form autoComplete="off" onSubmit={addTodo}>
         <div className="flex justify-between mb-4">
           <input
-            className="flex-4 w-[60%] focus:outline-none border border-b-4"
+            className="flex-3 focus:outline-none border border-b-4"
             type="text"
             name="todos"
             id="todos"
@@ -29,7 +29,7 @@ const TodoForm = () => {
             value={todoName}
             onChange={handleChange}
           />
-          <button className="p-2 bg-bg-blue-300 flex items-center text-white" type="submit">Create</button>
+          <button className="p-2 bg-[#555555] flex items-center text-white" type="submit">Create</button>
         </div>
       </form>
     </div>

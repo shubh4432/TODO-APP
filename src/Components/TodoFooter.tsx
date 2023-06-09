@@ -26,9 +26,9 @@ const TodoFooter = () => {
   return (
     <>
       {todos.length === 0 ? (
-        <h2 className="text-center text-white text-xl mt-8">Congratulations you have nothing left TODO! </h2>
+        <h2 className="text-center text-gray-500 text-xl mt-8">Congratulations you have nothing left TODO! </h2>
       ) : (
-        <div className="flex justify-between items-center mt-4 text-white">
+        <div className="flex justify-between items-center mt-4">
           <label className="cursor-pointer" htmlFor="all">
             <input
               type="checkbox"
@@ -39,7 +39,7 @@ const TodoFooter = () => {
             />
             ALL
           </label>
-          <p className="text-white">
+          <p>
             You have {todos.filter((todo) => todo.complete === false).length} to
             do
           </p>
