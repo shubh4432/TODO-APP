@@ -44,7 +44,7 @@ const TodoItem: React.FC<TodoItemProps> = ({
   const [editSubtaskIndex, setEditSubtaskIndex] = useState(-1);
 
   const ButtonClass =
-    "rounded bg-[bg-yellow-400 text-white py-2 px-4";
+    "rounded bg-[bg-yellow-400 text-black py-2 px-4";
 
   const handleOnEdit = () => {
     setOnEdit(true);

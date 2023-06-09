@@ -29,7 +29,7 @@ const TodoForm = () => {
             value={todoName}
             onChange={handleChange}
           />
-          <button className="p-2 bg-zinc-600 flex items-center text-white" type="submit">Create</button>
+          <button className="p-2 bg-zinc-600 flex items-center text-black" type="submit">Create</button>
         </div>
       </form>
     </div>
