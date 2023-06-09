@@ -27,14 +27,12 @@ const Dashboard = () => {
       <div className="bg-white shadow-xl rounded-lg p-6 w-1/3">
         <TodoProvider>
           <UserProvider>
-            <main>
               <h1 className="text-4xl text-[#666666] font-bold mb-4">
                 To Do App
               </h1>
               <TodoForm />
               <TodoList />
               <TodoFooter />
-            </main>
           </UserProvider>
         </TodoProvider>
       </div>
